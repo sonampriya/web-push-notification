@@ -128,7 +128,7 @@
 
     console.log("Subscription ID", subscription_id);
 
-    fetch('https://5c215d5b.ngrok.io/api/users', {
+    fetch('https://937d5435.ngrok.io/api/users', {
       method: 'post',
       headers: {
         'Accept': 'application/json',
@@ -141,7 +141,7 @@
   function deleteSubscriptionID(subscription) {
     var subscription_id = subscription.endpoint.split('gcm/send/')[1];
 
-    fetch('https://5c215d5b.ngrok.io/api/user/' + subscription_id, {
+    fetch('https://937d5435.ngrok.io/api/user/' + subscription_id, {
       method: 'delete',
       headers: {
         'Accept': 'application/json',

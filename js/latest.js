@@ -33,7 +33,7 @@
 
   // Get Commit Data from Github API
   function fetchCommits() {
-    var url = 'https://api.github.com/repos/sonampriya/pwa-apis/commits';
+    var url = 'https://api.github.com/repos/sonampriya/web-push-notification/commits';
 
     app.spinner.setAttribute('visible', true); 
     var myHeaders = new Headers();
