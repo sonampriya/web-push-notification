@@ -87,7 +87,7 @@ self.addEventListener('push', function(event) {
 
 self.addEventListener('notificationclick', function(event) {
 
-  var url = 'https://github.com/sonampriya/pwa-apis/commits/master';
+  var url = 'https://github.com/sonampriya/web-push-notification/commits/master';
 
   event.notification.close(); //Close the notification
 
