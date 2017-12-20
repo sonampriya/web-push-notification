@@ -1,6 +1,8 @@
 (function() {
   'use strict';
   
+  
+  
   // TODO add service worker code here                 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
